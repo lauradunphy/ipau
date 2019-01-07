@@ -1,7 +1,35 @@
 version: "0.1"
 medium:
   path: "media/"
+  definitions:
+    LB:
+        filename: "LB_media.csv"
+        label: "LB"
+    SCFM:
+        filename: "SCFM_media.csv"
+        label: "SCFM"
+    M9_glucose:
+        filename: "M9glucose_media.csv"
+        label: "M9 + glucose minimal"
+    M9_salts:
+        filename: "M9salts_media.csv"
+        label: "M9 salts only medium"
 essentiality:
   path: "essentiality/"
+  experiments:
+    knockoutAll:
+      filename: "PA14MAessLBall.csv"
+      objective: PA14_Biomass
+      label: "ManoilAusubel_allessentials"
+    knockoutMet1:
+      filename: "PA14MAessLBmet.csv"
+      objective: PA14_Biomass
+      label: "ManoilAusubel_metessentials_v1"
 growth:
   path: "growth/"
+  experiments:
+    my_growth:
+      filename: "PA14Biolog_v1.csv"
+      medium: M9_salts
+      objective: PA14_Biomass
+      label: "Biolog substrate screen"
