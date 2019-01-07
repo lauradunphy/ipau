@@ -1,0 +1,93 @@
+﻿exchange,uptake,growth,comment
+EX_cpd01949(e),10,0,"2,3-Butanediol"
+EX_cpd00361(e),10,0,"2,3-Butanone"
+EX_cpd00162(e),10,1,2-Aminoethanol
+EX_cpd00294(e),10,0,2-Deoxy Adenosine
+EX_cpd01242(e),10,0,2-Deoxy-D-Ribose
+EX_cpd00599(e),10,0,2-Hydroxy Benzoic Acid
+EX_cpd00361(e),10,0,3-Hydroxy 2-Butanone
+EX_cpd00136(e),10,1,4-Hydroxy Benzoic Acid
+EX_cpd00029(e),10,1,Acetic Acid
+EX_cpd00142(e),10,0,Acetoacetic Acid
+EX_cpd00182(e),10,1,Adenosine
+EX_cpd00211(e),10,1,Butyric Acid
+EX_cpd01502(e),10,0,Citraconic Acid
+EX_cpd00137(e),10,1,Citric Acid
+EX_cpd00266(e),10,1,"D,L-Carnitine"
+EX_cpd00080(e),10,1,"D,L-α-Glycerol- 
+Phosphate"
+EX_cpd00117(e),10,1,D-Alanine
+EX_cpd00158(e),10,0,D-Cellobiose
+EX_cpd00082(e),10,1,D-Fructose
+EX_cpd00072(e),10,0,D-Fructose-6-Phosphate
+EX_cpd00280(e),10,0,D-Galacturonic Acid
+EX_cpd00222(e),10,1,D-Gluconic Acid
+EX_cpd00089(e),10,0,D-Glucose-1-Phosphate
+EX_cpd00079(e),10,0,D-Glucose-6-Phosphate
+EX_cpd00164(e),10,0,D-Glucuronic Acid
+EX_cpd00386(e),10,0,D-Malic Acid
+EX_cpd00314(e),10,1,D-Mannitol
+EX_cpd00138(e),10,0,D-Mannose
+EX_cpd00105(e),10,0,D-Ribose
+EX_cpd00609(e),10,0,D-Saccharic Acid
+EX_cpd00550(e),10,0,D-Serine
+EX_cpd00588(e),10,0,D-Sorbitol
+EX_cpd00666(e),10,0,D-Tartaric Acid
+EX_cpd00154(e),10,0,D-Xylose
+EX_cpd00047(e),10,0,Formic Acid
+EX_cpd00106(e),10,1,Fumaric Acid
+EX_cpd00100(e),10,1,Glycerol
+EX_cpd00033(e),10,1,Glycine
+EX_cpd00155(e),10,0,Glycogen
+EX_cpd00139(e),10,0,Glycolic Acid
+EX_cpd11589(e),10,0,Glycyl-L-Aspartic Acid
+EX_cpd11592(e),10,1,Glycyl-L-Glutamic Acid
+EX_cpd11588(e),10,1,Glycyl-L-Proline
+EX_cpd00040(e),10,0,Glyoxylic Acid
+EX_cpd00851(e),10,1,Hydroxy-L-Proline
+EX_cpd00246(e),10,0,Inosine
+EX_cpd00380(e),10,1,Itaconic Acid
+EX_cpd00035(e),10,1,L-Alanine
+EX_cpd11585(e),10,1,L-Alanyl-Glycine
+EX_cpd00224(e),10,0,L-Arabinose
+EX_cpd00051(e),10,1,L-Arginine
+EX_cpd00132(e),10,1,L-Asparagine
+EX_cpd00041(e),10,1,L-Aspartic Acid
+EX_cpd00023(e),10,1,L-Glutamic Acid
+EX_cpd00053(e),10,1,L-Glutamine
+EX_cpd00119(e),10,1,L-Histidine
+EX_cpd00227(e),10,0,L-Homoserine
+EX_cpd00322(e),10,1,L-Isoleucine
+EX_cpd00159(e),10,1,L-Lactic Acid
+EX_cpd00107(e),10,1,L-Leucine
+EX_cpd00039(e),10,1,L-Lysine
+EX_cpd00130(e),10,1,L-Malic Acid
+EX_cpd00060(e),10,0,L-Methionine
+EX_cpd00064(e),10,1,L-Ornithine
+EX_cpd00066(e),10,1,L-Phenylalanine
+EX_cpd00129(e),10,1,L-Proline
+EX_cpd00054(e),10,1,L-Serine
+EX_cpd00666(e),10,0,L-Tartaric Acid
+EX_cpd00161(e),10,0,L-Threonine
+EX_cpd00156(e),10,0,L-Valine
+EX_cpd00308(e),10,1,Malonic Acid
+EX_cpd00179(e),10,0,Maltose
+EX_cpd01262(e),10,0,Maltotriose
+EX_cpd03320(e),10,0,m-Hydroxy Phenyl Acetic Acid
+EX_cpd00121(e),10,0,m-Inositol
+EX_cpd00666(e),10,0,m-Tartaric Acid
+EX_cpd00652(e),10,0,Mucic Acid
+EX_cpd00477(e),10,1,N-Acetyl-L-Glutamic Acid
+EX_cpd00489(e),10,1,p-Hydroxy Phenyl Acetic Acid
+EX_cpd00141(e),10,1,Propionic Acid
+EX_cpd00118(e),10,1,Putrescine
+EX_cpd00020(e),10,1,Pyruvic Acid
+EX_cpd00036(e),10,1,Succinic Acid
+EX_cpd00184(e),10,0,Thymidine
+EX_cpd00794(e),10,0,D-Trehalose
+EX_cpd00249(e),10,1,Uridine
+EX_cpd00027(e),10,1,α-D-Glucose
+EX_cpd00094(e),10,0,α-Keto-Butyric Acid
+EX_cpd00024(e),10,1,α-Keto-Glutaric Acid
+EX_cpd00797(e),10,1,β-Hydroxy Butyric Acid
+EX_cpd00281(e),10,1,γ-Amino Butyric Acid
