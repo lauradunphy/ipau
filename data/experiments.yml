@@ -17,14 +17,11 @@ medium:
 essentiality:
   path: "essentiality/"
   experiments:
-    knockoutAll:
-      filename: "PA14MAessLBall.csv"
-      objective: PA14_Biomass
-      label: "ManoilAusubel_allessentials"
-    knockoutMet1:
+    knockoutMet:
       filename: "PA14MAessLBmet.csv"
       objective: PA14_Biomass
-      label: "ManoilAusubel_metessentials_v1"
+      medium: LB
+      label: "ManoilAusubel_allessentials"
 growth:
   path: "growth/"
   experiments:
