@@ -21,7 +21,7 @@
   - !!omap
     - id: cJB00124_c
     - name: 3-Demethylubiquinol-9
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C53H82O4
     - annotation: !!omap
@@ -37,7 +37,7 @@
   - !!omap
     - id: cJB00126_c
     - name: Dihydroaeruginoic acid
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C10H9NO3S
     - annotation: !!omap
@@ -45,7 +45,7 @@
   - !!omap
     - id: cJB00127_c
     - name: cis-2-Decenoic acid
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C10H17O2
     - annotation: !!omap
@@ -53,7 +53,7 @@
   - !!omap
     - id: cJB00127_e
     - name: cis-2-Decenoic acid
-    - compartment: e
+    - compartment: extracellular
     - charge: -1
     - formula: C10H17O2
     - annotation: !!omap
@@ -81,7 +81,7 @@
   - !!omap
     - id: cPY00116_e
     - name: phosphoethanolamine KDO(2)-lipid (A)
-    - compartment: e
+    - compartment: extracellular
     - charge: -6
     - formula: C112H202N3O42P3
     - annotation: !!omap
@@ -89,7 +89,7 @@
   - !!omap
     - id: cPY00120_c
     - name: pa160161
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C35H65O8P1
     - annotation: !!omap
@@ -97,7 +97,7 @@
   - !!omap
     - id: cPY00121_c
     - name: CDP-pa160161
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C44H77N3O15P2
     - annotation: !!omap
@@ -105,7 +105,7 @@
   - !!omap
     - id: cPY00122_c
     - name: ps160161
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C38H71N1O10P1
     - annotation: !!omap
@@ -113,7 +113,7 @@
   - !!omap
     - id: cPY00123_c
     - name: pe160161
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C37H72N1O8P1
     - annotation: !!omap
@@ -121,7 +121,7 @@
   - !!omap
     - id: cPY00124_c
     - name: pe170cyc
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: None
     - annotation: !!omap
@@ -129,7 +129,7 @@
   - !!omap
     - id: cPY00125_c
     - name: pa180181
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C39H73O8P1
     - annotation: !!omap
@@ -137,7 +137,7 @@
   - !!omap
     - id: cPY00126_c
     - name: CDP-pa180181
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C48H85N3O15P2
     - annotation: !!omap
@@ -145,7 +145,7 @@
   - !!omap
     - id: cPY00127_c
     - name: ps180181
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C42H79N1O10P1
     - annotation: !!omap
@@ -153,7 +153,7 @@
   - !!omap
     - id: cPY00128_c
     - name: pe180181
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C41H80N1O8P1
     - annotation: !!omap
@@ -161,7 +161,7 @@
   - !!omap
     - id: cPY00129_c
     - name: pe190cyc
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: None
     - annotation: !!omap
@@ -169,7 +169,7 @@
   - !!omap
     - id: cPY00130_c
     - name: pgp160161
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C38H71O13P2
     - annotation: !!omap
@@ -177,7 +177,7 @@
   - !!omap
     - id: cPY00131_c
     - name: pg160161
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C38H72O10P1
     - annotation: !!omap
@@ -185,7 +185,7 @@
   - !!omap
     - id: cPY00132_c
     - name: pg170cyc
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: None
     - annotation: !!omap
@@ -193,7 +193,7 @@
   - !!omap
     - id: cPY00133_c
     - name: pgp180181
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C42H79O13P2
     - annotation: !!omap
@@ -201,7 +201,7 @@
   - !!omap
     - id: cPY00134_c
     - name: pg180181
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C42H80O10P1
     - annotation: !!omap
@@ -209,7 +209,7 @@
   - !!omap
     - id: cPY00135_c
     - name: pg190cyc
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C42H80O10P1
     - annotation: !!omap
@@ -217,7 +217,7 @@
   - !!omap
     - id: cPY00138_c
     - name: clpn170cyc
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: None
     - annotation: !!omap
@@ -225,7 +225,7 @@
   - !!omap
     - id: cPY00140_c
     - name: clpn190cyc
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: None
     - annotation: !!omap
@@ -233,7 +233,7 @@
   - !!omap
     - id: cPY00141_c
     - name: clpn180181
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C81H150O17P2
     - annotation: !!omap
@@ -241,7 +241,7 @@
   - !!omap
     - id: cPY00142_c
     - name: clpn160161
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C73H136O17P2
     - annotation: !!omap
@@ -249,7 +249,7 @@
   - !!omap
     - id: cPY00161_c
     - name: N5-hydroxy-L-ornithine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C5H12N2O3
     - annotation: !!omap
@@ -257,7 +257,7 @@
   - !!omap
     - id: cPY00162_c
     - name: N5-formyl-N5-hydroxy-L-ornithine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C6H12N2O4
     - annotation: !!omap
@@ -265,7 +265,7 @@
   - !!omap
     - id: cPY00163_c
     - name: ferribactin
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C56H90N18O21
     - annotation: !!omap
@@ -273,7 +273,7 @@
   - !!omap
     - id: cPY00164_c
     - name: pyoverdine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C56H88N18O22
     - annotation: !!omap
@@ -2129,7 +2129,7 @@
   - !!omap
     - id: cpd00049_c
     - name: Carboxylic acid
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: CO2R
     - annotation: !!omap
@@ -3727,7 +3727,7 @@
   - !!omap
     - id: cpd00094_c
     - name: 2-Oxobutyrate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C4H5O3
     - annotation: !!omap
@@ -4651,7 +4651,7 @@
   - !!omap
     - id: cpd00123_c
     - name: 3-Methyl-2-oxobutanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H7O3
     - annotation: !!omap
@@ -4942,7 +4942,7 @@
   - !!omap
     - id: cpd00136_c
     - name: 4-Hydroxybenzoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C7H5O3
     - annotation: !!omap
@@ -4950,7 +4950,7 @@
   - !!omap
     - id: cpd00136_e
     - name: 4-Hydroxybenzoate
-    - compartment: e
+    - compartment: extracellular
     - charge: -1
     - formula: C7H5O3
     - annotation: !!omap
@@ -5337,7 +5337,7 @@
   - !!omap
     - id: cpd00147_c
     - name: 5-Methylthioadenosine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C11H15N5O3S
     - annotation: !!omap
@@ -5345,7 +5345,7 @@
   - !!omap
     - id: cpd00147_e
     - name: 5-Methylthioadenosine
-    - compartment: e
+    - compartment: extracellular
     - charge: 0
     - formula: C11H15N5O3S
     - annotation: !!omap
@@ -5855,7 +5855,7 @@
   - !!omap
     - id: cpd00168_c
     - name: 2,3-Dihydroxybenzoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C7H5O4
     - annotation: !!omap
@@ -5863,7 +5863,7 @@
   - !!omap
     - id: cpd00169_c
     - name: 3-Phosphoglycerate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C3H5O7P
     - annotation: !!omap
@@ -5932,7 +5932,7 @@
   - !!omap
     - id: cpd00176_e
     - name: 2-keto-3-deoxygluconate
-    - compartment: e
+    - compartment: extracellular
     - charge: -1
     - formula: C6H9O6
     - annotation: !!omap
@@ -6341,7 +6341,7 @@
   - !!omap
     - id: cpd00197_c
     - name: Protocatechuate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C7H5O4
     - annotation: !!omap
@@ -6397,7 +6397,7 @@
   - !!omap
     - id: cpd00200_c
     - name: 4MOP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O3
     - annotation: !!omap
@@ -6405,7 +6405,7 @@
   - !!omap
     - id: cpd00201_c
     - name: 10-Formyltetrahydrofolate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C20H21N7O7
     - annotation: !!omap
@@ -6444,7 +6444,7 @@
   - !!omap
     - id: cpd00203_c
     - name: 1,3-Bisphospho-D-glycerate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C3H6O10P2
     - annotation: !!omap
@@ -8103,7 +8103,7 @@
   - !!omap
     - id: cpd00281_c
     - name: GABA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C4H9NO2
     - annotation: !!omap
@@ -8111,7 +8111,7 @@
   - !!omap
     - id: cpd00281_e
     - name: GABA
-    - compartment: e
+    - compartment: extracellular
     - charge: 0
     - formula: C4H9NO2
     - annotation: !!omap
@@ -8177,7 +8177,7 @@
   - !!omap
     - id: cpd00284_c
     - name: 6-Phospho-D-gluconate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C6H11O10P
     - annotation: !!omap
@@ -8235,7 +8235,7 @@
   - !!omap
     - id: cpd00287_c
     - name: 3-Oxo-2-methylpropanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C4H5O3
     - annotation: !!omap
@@ -9013,7 +9013,7 @@
   - !!omap
     - id: cpd00337_c
     - name: Hydrouracil
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C4H6N2O2
     - annotation: !!omap
@@ -9021,7 +9021,7 @@
   - !!omap
     - id: cpd00338_c
     - name: 5-Aminolevulinate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C5H9NO3
     - annotation: !!omap
@@ -9108,7 +9108,7 @@
   - !!omap
     - id: cpd00345_c
     - name: 5-Methyltetrahydrofolate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C20H23N7O6
     - annotation: !!omap
@@ -10090,7 +10090,7 @@
   - !!omap
     - id: cpd00434_c
     - name: 4-Aminobutanal
-    - compartment: c
+    - compartment: cytosol
     - charge: 1
     - formula: C4H10NO
     - annotation: !!omap
@@ -10150,7 +10150,7 @@
   - !!omap
     - id: cpd00443_c
     - name: ABEE
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C7H6NO2
     - annotation: !!omap
@@ -10349,7 +10349,7 @@
   - !!omap
     - id: cpd00480_c
     - name: 2-Dehydro-D-gluconate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O7
     - annotation: !!omap
@@ -10357,7 +10357,7 @@
   - !!omap
     - id: cpd00480_e
     - name: 2-Dehydro-D-gluconate
-    - compartment: e
+    - compartment: extracellular
     - charge: -1
     - formula: C6H9O7
     - annotation: !!omap
@@ -10389,7 +10389,7 @@
   - !!omap
     - id: cpd00482_c
     - name: 2-Phospho-D-glycerate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C3H5O7P
     - annotation: !!omap
@@ -10425,7 +10425,7 @@
   - !!omap
     - id: cpd00489_c
     - name: 4-Hydroxyphenylacetate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C8H7O3
     - annotation: !!omap
@@ -10433,7 +10433,7 @@
   - !!omap
     - id: cpd00489_e
     - name: 4-Hydroxyphenylacetate
-    - compartment: e
+    - compartment: extracellular
     - charge: 0
     - formula: C8H7O3
     - annotation: !!omap
@@ -10514,7 +10514,7 @@
   - !!omap
     - id: cpd00504_c
     - name: LL-2,6-Diaminopimelate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C7H14N2O4
     - annotation: !!omap
@@ -10575,7 +10575,7 @@
   - !!omap
     - id: cpd00508_c
     - name: 3MOP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O3
     - annotation: !!omap
@@ -10583,7 +10583,7 @@
   - !!omap
     - id: cpd00510_c
     - name: deoxyribose-5-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H10O7P
     - annotation: !!omap
@@ -10591,7 +10591,7 @@
   - !!omap
     - id: cpd00516_c
     - name: meso-2,6-Diaminopimelate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C7H14N2O4
     - annotation: !!omap
@@ -11200,7 +11200,7 @@
   - !!omap
     - id: cpd00630_c
     - name: 3-Oxoadipate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C6H6O5
     - annotation: !!omap
@@ -11709,7 +11709,7 @@
   - !!omap
     - id: cpd00699_c
     - name: 5-Dehydroquinate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C7H9O6
     - annotation: !!omap
@@ -11717,7 +11717,7 @@
   - !!omap
     - id: cpd00712_c
     - name: 2-Dehydropantoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O4
     - annotation: !!omap
@@ -11757,7 +11757,7 @@
   - !!omap
     - id: cpd00726_c
     - name: 1,3-Propanediamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 2
     - formula: C3H12N2
     - annotation: !!omap
@@ -11765,7 +11765,7 @@
   - !!omap
     - id: cpd00727_c
     - name: 2-Phosphoglycolate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C2H3O6P
     - annotation: !!omap
@@ -11883,7 +11883,7 @@
   - !!omap
     - id: cpd00760_c
     - name: 2-Methylbutyryl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C26H41N7O17P3S
     - annotation: !!omap
@@ -11891,7 +11891,7 @@
   - !!omap
     - id: cpd00762_c
     - name: 4-Guanidinobutanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C5H11N3O2
     - annotation: !!omap
@@ -11899,7 +11899,7 @@
   - !!omap
     - id: cpd00763_c
     - name: 4-Maleylacetoacetate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C8H6O6
     - annotation: !!omap
@@ -11995,7 +11995,7 @@
   - !!omap
     - id: cpd00780_c
     - name: Fumarylacetoacetate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C8H6O6
     - annotation: !!omap
@@ -12187,7 +12187,7 @@
   - !!omap
     - id: cpd00800_c
     - name: 8-Amino-7-oxononanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C9H17NO3
     - annotation: !!omap
@@ -12415,7 +12415,7 @@
   - !!omap
     - id: cpd00842_c
     - name: (S)-3-Hydroxybutyryl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C25H39N7O18P3S
     - annotation: !!omap
@@ -12423,7 +12423,7 @@
   - !!omap
     - id: cpd00843_c
     - name: Tartronate semialdehyde
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C3H3O4
     - annotation: !!omap
@@ -12431,7 +12431,7 @@
   - !!omap
     - id: cpd00851_c
     - name: trans-4-Hydroxy-L-proline
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H8NO3
     - annotation: !!omap
@@ -12439,7 +12439,7 @@
   - !!omap
     - id: cpd00851_e
     - name: trans-4-Hydroxy-L-proline
-    - compartment: e
+    - compartment: extracellular
     - charge: -1
     - formula: C5H8NO3
     - annotation: !!omap
@@ -12447,7 +12447,7 @@
   - !!omap
     - id: cpd00854_c
     - name: Homoprotocatechuate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C8H7O4
     - annotation: !!omap
@@ -12555,7 +12555,7 @@
   - !!omap
     - id: cpd00868_c
     - name: p-hydroxyphenylpyruvate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C9H7O4
     - annotation: !!omap
@@ -12563,7 +12563,7 @@
   - !!omap
     - id: cpd00869_c
     - name: 4-methylthio 2-oxobutyrate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H7O3S
     - annotation: !!omap
@@ -12662,7 +12662,7 @@
   - !!omap
     - id: cpd00876_c
     - name: 3-Hydroxyisobutyrate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C4H7O3
     - annotation: !!omap
@@ -12714,7 +12714,7 @@
   - !!omap
     - id: cpd00896_c
     - name: 6-Phospho-2-dehydro-D-gluconate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C6H9O10P
     - annotation: !!omap
@@ -12789,7 +12789,7 @@
   - !!omap
     - id: cpd00909_c
     - name: 1-Aminocyclopropane-1-carboxylate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C4H7NO2
     - annotation: !!omap
@@ -12797,7 +12797,7 @@
   - !!omap
     - id: cpd00911_c
     - name: 6-phospho-D-glucono-1-5-lactone
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H10O9P
     - annotation: !!omap
@@ -12872,7 +12872,7 @@
   - !!omap
     - id: cpd00931_c
     - name: 5-Amino-6--5-phosphoribosylaminouracil
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C9H14N4O9P
     - annotation: !!omap
@@ -12880,7 +12880,7 @@
   - !!omap
     - id: cpd00932_c
     - name: 5-O--1-Carboxyvinyl-3-phosphoshikimate
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C10H10O10P
     - annotation: !!omap
@@ -12888,7 +12888,7 @@
   - !!omap
     - id: cpd00938_c
     - name: 4-Carboxymuconolactone
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H4O6
     - annotation: !!omap
@@ -12896,7 +12896,7 @@
   - !!omap
     - id: cpd00939_c
     - name: Toxopyrimidine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C6H9N3O
     - annotation: !!omap
@@ -12920,7 +12920,7 @@
   - !!omap
     - id: cpd00954_c
     - name: 6-hydroxymethyl dihydropterin
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C7H9N5O2
     - annotation: !!omap
@@ -12928,7 +12928,7 @@
   - !!omap
     - id: cpd00956_c
     - name: 1-(2-carboxyphenylamino)-1-deoxyribulose 5-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C12H14NO9P
     - annotation: !!omap
@@ -12936,7 +12936,7 @@
   - !!omap
     - id: cpd00957_c
     - name: 2,5-Diamino-6-(5'-phosphoribosylamino)-4-pyrimidineone
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C9H15N5O8P
     - annotation: !!omap
@@ -13269,7 +13269,7 @@
   - !!omap
     - id: cpd01155_c
     - name: Cadaverine
-    - compartment: c
+    - compartment: cytosol
     - charge: 2
     - formula: C5H16N2
     - annotation: !!omap
@@ -13459,7 +13459,7 @@
   - !!omap
     - id: cpd01293_c
     - name: 5-Oxoproline
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H6NO3
     - annotation: !!omap
@@ -13467,7 +13467,7 @@
   - !!omap
     - id: cpd01293_e
     - name: 5-Oxoproline
-    - compartment: e
+    - compartment: extracellular
     - charge: -1
     - formula: C5H6NO3
     - annotation: !!omap
@@ -13631,7 +13631,7 @@
   - !!omap
     - id: cpd01447_c
     - name: Benzoylformate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C8H5O3
     - annotation: !!omap
@@ -13752,7 +13752,7 @@
   - !!omap
     - id: cpd01581_c
     - name: 3-Oxododecanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C12H21O3
     - annotation: !!omap
@@ -13879,7 +13879,7 @@
   - !!omap
     - id: cpd01646_c
     - name: 2-Isopropylmalate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H10O5
     - annotation: !!omap
@@ -13934,7 +13934,7 @@
   - !!omap
     - id: cpd01710_c
     - name: 2-Isopropylmaleate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H8O4
     - annotation: !!omap
@@ -13942,7 +13942,7 @@
   - !!omap
     - id: cpd01716_c
     - name: 3-Dehydroshikimate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C7H7O5
     - annotation: !!omap
@@ -14086,7 +14086,7 @@
   - !!omap
     - id: cpd01795_c
     - name: 2-Deoxy-D-gluconate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H11O6
     - annotation: !!omap
@@ -14216,7 +14216,7 @@
   - !!omap
     - id: cpd01949_c
     - name: (S,S)-2,3-Butanediol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C4H10O2
     - annotation: !!omap
@@ -14224,7 +14224,7 @@
   - !!omap
     - id: cpd01966_c
     - name: Dimethylacryloyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C26H39N7O17P3S
     - annotation: !!omap
@@ -14232,7 +14232,7 @@
   - !!omap
     - id: cpd01977_c
     - name: 4-Phospho-L-aspartate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C4H7NO7P
     - annotation: !!omap
@@ -14400,7 +14400,7 @@
   - !!omap
     - id: cpd02068_c
     - name: 3-Methylglutaconyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -4
     - formula: C27H38N7O19P3S
     - annotation: !!omap
@@ -14408,7 +14408,7 @@
   - !!omap
     - id: cpd02069_c
     - name: 3-Phosphonooxypyruvate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C3H3O7P
     - annotation: !!omap
@@ -14479,7 +14479,7 @@
   - !!omap
     - id: cpd02095_c
     - name: L-2,4-Diaminobutyrate
-    - compartment: c
+    - compartment: cytosol
     - charge: 1
     - formula: C4H11N2O2
     - annotation: !!omap
@@ -14558,7 +14558,7 @@
   - !!omap
     - id: cpd02120_c
     - name: Dihydrodipicolinate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H5NO4
     - annotation: !!omap
@@ -14566,7 +14566,7 @@
   - !!omap
     - id: cpd02124_c
     - name: 2-Methylacetoacetyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C26H39N7O18P3S
     - annotation: !!omap
@@ -14574,7 +14574,7 @@
   - !!omap
     - id: cpd02125_c
     - name: Tiglyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C26H39N7O17P3S
     - annotation: !!omap
@@ -14606,7 +14606,7 @@
   - !!omap
     - id: cpd02147_c
     - name: 4-Phosphoerythronate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C4H7O8P
     - annotation: !!omap
@@ -14687,7 +14687,7 @@
   - !!omap
     - id: cpd02201_c
     - name: 4-phosphopantothenate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C9H16NO8P
     - annotation: !!omap
@@ -14695,7 +14695,7 @@
   - !!omap
     - id: cpd02210_c
     - name: Indoleglycerol phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C11H13NO6P
     - annotation: !!omap
@@ -14703,7 +14703,7 @@
   - !!omap
     - id: cpd02211_c
     - name: L-2-Amino-acetoacetate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C4H7NO3
     - annotation: !!omap
@@ -14720,7 +14720,7 @@
   - !!omap
     - id: cpd02233_c
     - name: Ciliatine
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C2H7NO3P
     - annotation: !!omap
@@ -14728,7 +14728,7 @@
   - !!omap
     - id: cpd02255_c
     - name: 3-oxoadipate-enol-lactone
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H5O4
     - annotation: !!omap
@@ -14755,7 +14755,7 @@
   - !!omap
     - id: cpd02311_c
     - name: 4-Imidazolone-5-propanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H7N2O3
     - annotation: !!omap
@@ -14763,7 +14763,7 @@
   - !!omap
     - id: cpd02315_c
     - name: 6-Pyruvoyltetrahydropterin
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C9H11N5O3
     - annotation: !!omap
@@ -14892,7 +14892,7 @@
   - !!omap
     - id: cpd02419_c
     - name: Nonaprenyl-4-hydroxybenzoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C52H77O3
     - annotation: !!omap
@@ -14900,7 +14900,7 @@
   - !!omap
     - id: cpd02431_c
     - name: 1-Pyrroline-5-carboxylate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H6NO2
     - annotation: !!omap
@@ -14908,7 +14908,7 @@
   - !!omap
     - id: cpd02441_c
     - name: 3-Dehydro-2-deoxy-D-gluconate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O6
     - annotation: !!omap
@@ -14942,7 +14942,7 @@
   - !!omap
     - id: cpd02494_c
     - name: (2,3-Dihydroxybenzoyl)adenylate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H17N5O10P
     - annotation: !!omap
@@ -14950,7 +14950,7 @@
   - !!omap
     - id: cpd02498_c
     - name: 2,3-Dihydroxy-isovalerate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H9O4
     - annotation: !!omap
@@ -14958,7 +14958,7 @@
   - !!omap
     - id: cpd02535_c
     - name: 2,3-Dihydroxy-3-methylvalerate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H11O4
     - annotation: !!omap
@@ -14966,7 +14966,7 @@
   - !!omap
     - id: cpd02536_c
     - name: Muconolactone
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H5O4
     - annotation: !!omap
@@ -15067,7 +15067,7 @@
   - !!omap
     - id: cpd02566_c
     - name: 2,3-Dihydroxy-2,3-dihydrobenzoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C7H7O4
     - annotation: !!omap
@@ -15075,7 +15075,7 @@
   - !!omap
     - id: cpd02569_c
     - name: 2-Oxo-3-hydroxyisovalerate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H7O4
     - annotation: !!omap
@@ -15083,7 +15083,7 @@
   - !!omap
     - id: cpd02572_c
     - name: 5-Carboxymethyl-2-hydroxymuconate
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C8H5O7
     - annotation: !!omap
@@ -15091,7 +15091,7 @@
   - !!omap
     - id: cpd02574_c
     - name: methylthioribose-1-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H12O7PS
     - annotation: !!omap
@@ -15099,7 +15099,7 @@
   - !!omap
     - id: cpd02605_c
     - name: 2-isopropyl-3-oxosuccinate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H8O5
     - annotation: !!omap
@@ -15158,7 +15158,7 @@
   - !!omap
     - id: cpd02654_c
     - name: 4-Methyl-5--2-phosphoethyl-thiazole
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9NO4PS
     - annotation: !!omap
@@ -15187,7 +15187,7 @@
   - !!omap
     - id: cpd02666_c
     - name: (R)-4'-Phosphopantothenoyl-L-cysteine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C12H21N2O9PS
     - annotation: !!omap
@@ -15219,7 +15219,7 @@
   - !!omap
     - id: cpd02691_c
     - name: 2-methyl-3-hydroxy-butyryl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C26H41N7O18P3S
     - annotation: !!omap
@@ -15227,7 +15227,7 @@
   - !!omap
     - id: cpd02693_c
     - name: 3-Isopropylmalate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H10O5
     - annotation: !!omap
@@ -15277,7 +15277,7 @@
   - !!omap
     - id: cpd02711_c
     - name: 2-Keto-3-deoxy-6-phosphogluconate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C6H9O9P
     - annotation: !!omap
@@ -15285,7 +15285,7 @@
   - !!omap
     - id: cpd02720_c
     - name: 5-Amino-6--5-phosphoribitylaminouracil
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C9H16N4O9P
     - annotation: !!omap
@@ -15406,7 +15406,7 @@
   - !!omap
     - id: cpd02775_c
     - name: 4-Amino-5-phosphomethyl-2-methylpyrimidine
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9N3O4P
     - annotation: !!omap
@@ -15414,7 +15414,7 @@
   - !!omap
     - id: cpd02791_c
     - name: methylthioribulose-1-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H12O7PS
     - annotation: !!omap
@@ -15464,7 +15464,7 @@
   - !!omap
     - id: cpd02828_c
     - name: 5-Carboxymethyl-2-hydroxymuconic semialdehyde
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C8H6O6
     - annotation: !!omap
@@ -15515,7 +15515,7 @@
   - !!omap
     - id: cpd02857_c
     - name: DAHP
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H11O10P
     - annotation: !!omap
@@ -15523,7 +15523,7 @@
   - !!omap
     - id: cpd02882_c
     - name: 4--1-D-Ribitylamino-5-aminouracil
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C9H16N4O6
     - annotation: !!omap
@@ -15552,7 +15552,7 @@
   - !!omap
     - id: cpd02893_c
     - name: 5'-Phosphoribosyl-4-carboxy-5-aminoimidazole
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C9H13N3O9P
     - annotation: !!omap
@@ -15560,7 +15560,7 @@
   - !!omap
     - id: cpd02894_c
     - name: 4-Amino-2-methyl-5-diphosphomethylpyrimidine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C6H9N3O7P2
     - annotation: !!omap
@@ -15568,7 +15568,7 @@
   - !!omap
     - id: cpd02904_c
     - name: alpha-Ribazole 5'-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C14H18N2O7P
     - annotation: !!omap
@@ -15576,7 +15576,7 @@
   - !!omap
     - id: cpd02920_c
     - name: 7,8-Dihydropterin pyrophosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C7H9N5O8P2
     - annotation: !!omap
@@ -15584,7 +15584,7 @@
   - !!omap
     - id: cpd02921_c
     - name: SAICAR
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C13H16N4O12P
     - annotation: !!omap
@@ -15733,7 +15733,7 @@
   - !!omap
     - id: cpd03045_c
     - name: S-(2-Methylbutanoyl)-dihydrolipoamide
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C13H25NO2S2
     - annotation: !!omap
@@ -15741,7 +15741,7 @@
   - !!omap
     - id: cpd03046_c
     - name: S-(3-Methylbutanoyl)-dihydrolipoamide
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C13H25NO2S2
     - annotation: !!omap
@@ -15825,7 +15825,7 @@
   - !!omap
     - id: cpd03113_c
     - name: (S)-3-Hydroxyhexadecanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C37H63N7O18P3S
     - annotation: !!omap
@@ -15833,7 +15833,7 @@
   - !!omap
     - id: cpd03114_c
     - name: 3-Oxopalmitoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C37H61N7O18P3S
     - annotation: !!omap
@@ -15841,7 +15841,7 @@
   - !!omap
     - id: cpd03115_c
     - name: (S)-3-Hydroxytetradecanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C35H59N7O18P3S
     - annotation: !!omap
@@ -15849,7 +15849,7 @@
   - !!omap
     - id: cpd03116_c
     - name: (S)-3-Hydroxydodecanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C33H55N7O18P3S
     - annotation: !!omap
@@ -15857,7 +15857,7 @@
   - !!omap
     - id: cpd03117_c
     - name: 3-Oxododecanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C33H53N7O18P3S
     - annotation: !!omap
@@ -15865,7 +15865,7 @@
   - !!omap
     - id: cpd03118_c
     - name: (S)-Hydroxydecanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C31H51N7O18P3S
     - annotation: !!omap
@@ -15873,7 +15873,7 @@
   - !!omap
     - id: cpd03119_c
     - name: 3-Oxodecanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C31H49N7O18P3S
     - annotation: !!omap
@@ -15881,7 +15881,7 @@
   - !!omap
     - id: cpd03120_c
     - name: (S)-Hydroxyoctanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C29H47N7O18P3S
     - annotation: !!omap
@@ -15889,7 +15889,7 @@
   - !!omap
     - id: cpd03121_c
     - name: 3-Oxooctanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C29H45N7O18P3S
     - annotation: !!omap
@@ -15897,7 +15897,7 @@
   - !!omap
     - id: cpd03122_c
     - name: (S)-Hydroxyhexanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C27H43N7O18P3S
     - annotation: !!omap
@@ -15905,7 +15905,7 @@
   - !!omap
     - id: cpd03123_c
     - name: 3-Oxohexanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C27H41N7O18P3S
     - annotation: !!omap
@@ -16142,7 +16142,7 @@
   - !!omap
     - id: cpd03320_c
     - name: 3-Hydroxyphenylacetate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C8H8O3
     - annotation: !!omap
@@ -16184,7 +16184,7 @@
   - !!omap
     - id: cpd03424_c
     - name: Vitamin - B12
-    - compartment: c
+    - compartment: cytosol
     - charge: 6
     - formula: C61H86CoN13O14PR
     - annotation: !!omap
@@ -16192,7 +16192,7 @@
   - !!omap
     - id: cpd03424_e
     - name: Vitamin - B12
-    - compartment: e
+    - compartment: extracellular
     - charge: 6
     - formula: C61H86CoN13O14PR
     - annotation: !!omap
@@ -16220,7 +16220,7 @@
   - !!omap
     - id: cpd03443_c
     - name: 3-Octaprenyl-4-hydroxybenzoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C47H69O3
     - annotation: !!omap
@@ -16228,7 +16228,7 @@
   - !!omap
     - id: cpd03444_c
     - name: 2-Octaprenylphenol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C46H70O
     - annotation: !!omap
@@ -16236,7 +16236,7 @@
   - !!omap
     - id: cpd03445_c
     - name: 2-Octaprenyl-6-hydroxyphenol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C46H70O2
     - annotation: !!omap
@@ -16244,7 +16244,7 @@
   - !!omap
     - id: cpd03446_c
     - name: 2-Octaprenyl-6-methoxyphenol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C47H72O2
     - annotation: !!omap
@@ -16429,7 +16429,7 @@
   - !!omap
     - id: cpd03577_c
     - name: (R)-2-Oxo-3-methylpentanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O3
     - annotation: !!omap
@@ -16498,7 +16498,7 @@
   - !!omap
     - id: cpd03608_c
     - name: 4-Hydroxy-L-threonine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C4H9NO4
     - annotation: !!omap
@@ -16680,7 +16680,7 @@
   - !!omap
     - id: cpd03803_c
     - name: Carboxyphosphonoenolpyruvate
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C4H2O7P
     - annotation: !!omap
@@ -16688,7 +16688,7 @@
   - !!omap
     - id: cpd03804_c
     - name: (Hydroxyphosphinyl)pyruvate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C3H3O5P
     - annotation: !!omap
@@ -16892,7 +16892,7 @@
   - !!omap
     - id: cpd03897_c
     - name: 4a-Hydroxytetrahydrobiopterin
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C9H15N5O4
     - annotation: !!omap
@@ -16995,7 +16995,7 @@
   - !!omap
     - id: cpd04097_c
     - name: Pb - Pb
-    - compartment: c
+    - compartment: cytosol
     - charge: 2
     - formula: Pb
     - annotation: !!omap
@@ -17003,7 +17003,7 @@
   - !!omap
     - id: cpd04097_e
     - name: Pb - Pb
-    - compartment: e
+    - compartment: extracellular
     - charge: 2
     - formula: Pb
     - annotation: !!omap
@@ -17101,7 +17101,7 @@
   - !!omap
     - id: cpd04539_c
     - name: 2-Amino-3-oxo-4-phosphonooxybutyrate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C4H7NO7P
     - annotation: !!omap
@@ -17157,7 +17157,7 @@
   - !!omap
     - id: cpd05191_c
     - name: 3-Methylthiopropionate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C4H7O2S
     - annotation: !!omap
@@ -17237,7 +17237,7 @@
   - !!omap
     - id: cpd08210_c
     - name: ADC
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C10H10NO5
     - annotation: !!omap
@@ -17245,7 +17245,7 @@
   - !!omap
     - id: cpd08286_c
     - name: 2-C-methyl-D-erythritol4-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H12O7P
     - annotation: !!omap
@@ -17253,7 +17253,7 @@
   - !!omap
     - id: cpd08287_c
     - name: 4--cytidine5-diphospho-2-C-methyl-D-erythritol
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C14H23N3O14P2
     - annotation: !!omap
@@ -17261,7 +17261,7 @@
   - !!omap
     - id: cpd08288_c
     - name: 2-phospho-4--cytidine5-diphospho-2-C-methyl-D-erythritol
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C14H23N3O17P3
     - annotation: !!omap
@@ -17289,7 +17289,7 @@
   - !!omap
     - id: cpd08301_c
     - name: 2-C-methyl-D-erythritol2-4-cyclodiphosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C5H10O9P2
     - annotation: !!omap
@@ -17355,7 +17355,7 @@
   - !!omap
     - id: cpd08635_c
     - name: N-Butyryl-L-homoserine lactone
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C8H13NO3
     - annotation: !!omap
@@ -17363,7 +17363,7 @@
   - !!omap
     - id: cpd08828_c
     - name: pyochelin
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C14H15N2O3S2
     - annotation: !!omap
@@ -17407,7 +17407,7 @@
   - !!omap
     - id: cpd10162_c
     - name: (R)-3-Hydroxy-3-methyl-2-oxopentanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O4
     - annotation: !!omap
@@ -17473,7 +17473,7 @@
   - !!omap
     - id: cpd11255_c
     - name: 1,2-dihydroxy-3-keto-5-methylthiopentene
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C6H9O3S
     - annotation: !!omap
@@ -17491,7 +17491,7 @@
   - !!omap
     - id: cpd11310_c
     - name: 5-phosphoribosyl-5-carboxyaminoimidazole
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C9H12N3O9P
     - annotation: !!omap
@@ -17499,7 +17499,7 @@
   - !!omap
     - id: cpd11311_c
     - name: 1-Pyrroline
-    - compartment: c
+    - compartment: cytosol
     - charge: 1
     - formula: C4H8N
     - annotation: !!omap
@@ -17567,7 +17567,7 @@
   - !!omap
     - id: cpd11422_c
     - name: 1,2-diacyl-sn-glycerol 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C5H6O8PR2
     - annotation: !!omap
@@ -17575,7 +17575,7 @@
   - !!omap
     - id: cpd11423_c
     - name: 1,2-Diacyl-sn-glycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C5H6O5R2
     - annotation: !!omap
@@ -17583,7 +17583,7 @@
   - !!omap
     - id: cpd11425_c
     - name: 2dmmq7
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C45H62O2
     - annotation: !!omap
@@ -17764,7 +17764,7 @@
   - !!omap
     - id: cpd11465_c
     - name: But-2-enoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C15H25N2O8PRS
     - annotation: !!omap
@@ -17819,7 +17819,7 @@
   - !!omap
     - id: cpd11469_c
     - name: (2E)-Dodecenoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C23H41N2O8PRS
     - annotation: !!omap
@@ -17835,7 +17835,7 @@
   - !!omap
     - id: cpd11471_c
     - name: (2E)-Octenoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H33N2O8PRS
     - annotation: !!omap
@@ -17859,7 +17859,7 @@
   - !!omap
     - id: cpd11473_c
     - name: (2E)-Hexenoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H29N2O8PRS
     - annotation: !!omap
@@ -17875,7 +17875,7 @@
   - !!omap
     - id: cpd11475_c
     - name: (2E)-Decenoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H37N2O8PRS
     - annotation: !!omap
@@ -17906,7 +17906,7 @@
   - !!omap
     - id: cpd11478_c
     - name: (R)-3-Hydroxybutanoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C15H27N2O9PRS
     - annotation: !!omap
@@ -17914,7 +17914,7 @@
   - !!omap
     - id: cpd11479_c
     - name: D-3-Hydroxyhexanoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H31N2O9PRS
     - annotation: !!omap
@@ -17922,7 +17922,7 @@
   - !!omap
     - id: cpd11480_c
     - name: D-3-Hydroxydodecanoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C23H43N2O9PRS
     - annotation: !!omap
@@ -17930,7 +17930,7 @@
   - !!omap
     - id: cpd11481_c
     - name: R-3-hydroxypalmitoyl-acyl-carrierprotein-
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C27H51N2O9PRS
     - annotation: !!omap
@@ -17938,7 +17938,7 @@
   - !!omap
     - id: cpd11482_c
     - name: (R)-3-Hydroxydecanoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H39N2O9PRS
     - annotation: !!omap
@@ -17946,7 +17946,7 @@
   - !!omap
     - id: cpd11483_c
     - name: (R)-3-Hydroxyoctanoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H35N2O9PRS
     - annotation: !!omap
@@ -17954,7 +17954,7 @@
   - !!omap
     - id: cpd11484_c
     - name: HMA
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C25H47N2O9PRS
     - annotation: !!omap
@@ -17962,7 +17962,7 @@
   - !!omap
     - id: cpd11485_c
     - name: 3-oxohexadecanoyl-acp
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C27H49N2O9PRS
     - annotation: !!omap
@@ -17970,7 +17970,7 @@
   - !!omap
     - id: cpd11486_c
     - name: 3-Oxohexanoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H29N2O9PRS
     - annotation: !!omap
@@ -17978,7 +17978,7 @@
   - !!omap
     - id: cpd11487_c
     - name: 3-oxodecanoyl-acp
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H37N2O9PRS
     - annotation: !!omap
@@ -18002,7 +18002,7 @@
   - !!omap
     - id: cpd11489_c
     - name: 3-oxododecanoyl-acp
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C23H41N2O9PRS
     - annotation: !!omap
@@ -18010,7 +18010,7 @@
   - !!omap
     - id: cpd11490_c
     - name: 3-oxooctanoyl-acp
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H33N2O9PRS
     - annotation: !!omap
@@ -18018,7 +18018,7 @@
   - !!omap
     - id: cpd11491_c
     - name: 3-oxotetradecanoyl-acp
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C25H45N2O9PRS
     - annotation: !!omap
@@ -18101,7 +18101,7 @@
   - !!omap
     - id: cpd11495_c
     - name: 2-methylbutyryl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C16H29N2O8PRS
     - annotation: !!omap
@@ -18109,7 +18109,7 @@
   - !!omap
     - id: cpd11496_c
     - name: 4-methyl-3-oxo-hexanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H31N2O9PRS
     - annotation: !!omap
@@ -18117,7 +18117,7 @@
   - !!omap
     - id: cpd11497_c
     - name: 4-methyl-3-hydroxy-hexanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H33N2O9PRS
     - annotation: !!omap
@@ -18125,7 +18125,7 @@
   - !!omap
     - id: cpd11498_c
     - name: 4-methyl-trans-hex-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H31N2O8PRS
     - annotation: !!omap
@@ -18133,7 +18133,7 @@
   - !!omap
     - id: cpd11499_c
     - name: 4-methyl-hexanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H33N2O8PRS
     - annotation: !!omap
@@ -18141,7 +18141,7 @@
   - !!omap
     - id: cpd11500_c
     - name: 6-methyl-3-oxo-octanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H35N2O9PRS
     - annotation: !!omap
@@ -18149,7 +18149,7 @@
   - !!omap
     - id: cpd11501_c
     - name: 6-methyl-3-hydroxy-octanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H37N2O9PRS
     - annotation: !!omap
@@ -18157,7 +18157,7 @@
   - !!omap
     - id: cpd11502_c
     - name: 6-methyl-trans-oct-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H35N2O8PRS
     - annotation: !!omap
@@ -18165,7 +18165,7 @@
   - !!omap
     - id: cpd11503_c
     - name: 6-methyl-octanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H37N2O8PRS
     - annotation: !!omap
@@ -18173,7 +18173,7 @@
   - !!omap
     - id: cpd11504_c
     - name: 8-methyl-3-oxo-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H39N2O9PRS
     - annotation: !!omap
@@ -18181,7 +18181,7 @@
   - !!omap
     - id: cpd11505_c
     - name: 8-methyl-3-hydroxy-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H41N2O9PRS
     - annotation: !!omap
@@ -18189,7 +18189,7 @@
   - !!omap
     - id: cpd11506_c
     - name: 8-methyl-trans-dec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H39N2O8PRS
     - annotation: !!omap
@@ -18197,7 +18197,7 @@
   - !!omap
     - id: cpd11507_c
     - name: 8-methyl-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H41N2O8PRS
     - annotation: !!omap
@@ -18205,7 +18205,7 @@
   - !!omap
     - id: cpd11508_c
     - name: 10-methyl-3-oxo-dodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H43N2O9PRS
     - annotation: !!omap
@@ -18213,7 +18213,7 @@
   - !!omap
     - id: cpd11509_c
     - name: 10-methyl-3-hydroxy-dodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H45N2O9PRS
     - annotation: !!omap
@@ -18221,7 +18221,7 @@
   - !!omap
     - id: cpd11510_c
     - name: 10-methyl-trans-dodec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H43N2O8PRS
     - annotation: !!omap
@@ -18229,7 +18229,7 @@
   - !!omap
     - id: cpd11511_c
     - name: 10-methyl-dodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H45N2O8PRS
     - annotation: !!omap
@@ -18237,7 +18237,7 @@
   - !!omap
     - id: cpd11512_c
     - name: 12-methyl-3-oxo-tetra-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H47N2O9PRS
     - annotation: !!omap
@@ -18245,7 +18245,7 @@
   - !!omap
     - id: cpd11513_c
     - name: 12-methyl-3-hydroxy-tetra-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H49N2O9PRS
     - annotation: !!omap
@@ -18253,7 +18253,7 @@
   - !!omap
     - id: cpd11514_c
     - name: 12-methyl-trans-tetra-dec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H47N2O8PRS
     - annotation: !!omap
@@ -18261,7 +18261,7 @@
   - !!omap
     - id: cpd11515_c
     - name: 12-methyl-tetra-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H49N2O8PRS
     - annotation: !!omap
@@ -18269,7 +18269,7 @@
   - !!omap
     - id: cpd11516_c
     - name: 14-methyl-3-oxo-hexa-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H51N2O9PRS
     - annotation: !!omap
@@ -18277,7 +18277,7 @@
   - !!omap
     - id: cpd11517_c
     - name: 14-methyl-3-hydroxy-hexa-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H53N2O9PRS
     - annotation: !!omap
@@ -18285,7 +18285,7 @@
   - !!omap
     - id: cpd11518_c
     - name: 14-methyl-trans-hexa-dec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H51N2O8PRS
     - annotation: !!omap
@@ -18293,7 +18293,7 @@
   - !!omap
     - id: cpd11519_c
     - name: 14-methyl-hexa-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H53N2O8PRS
     - annotation: !!omap
@@ -18301,7 +18301,7 @@
   - !!omap
     - id: cpd11520_c
     - name: isovaleryl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C16H29N2O8PRS
     - annotation: !!omap
@@ -18309,7 +18309,7 @@
   - !!omap
     - id: cpd11521_c
     - name: 5-methyl-3-oxo-hexanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H31N2O9PRS
     - annotation: !!omap
@@ -18317,7 +18317,7 @@
   - !!omap
     - id: cpd11522_c
     - name: 5-methyl-3-hydroxy-hexanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H33N2O9PRS
     - annotation: !!omap
@@ -18325,7 +18325,7 @@
   - !!omap
     - id: cpd11523_c
     - name: 5-methyl-trans-hex-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H31N2O8PRS
     - annotation: !!omap
@@ -18333,7 +18333,7 @@
   - !!omap
     - id: cpd11524_c
     - name: 5-methyl-hexanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H33N2O8PRS
     - annotation: !!omap
@@ -18341,7 +18341,7 @@
   - !!omap
     - id: cpd11525_c
     - name: 7-methyl-3-oxo-octanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H35N2O9PRS
     - annotation: !!omap
@@ -18349,7 +18349,7 @@
   - !!omap
     - id: cpd11526_c
     - name: 7-methyl-3-hydroxy-octanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H37N2O9PRS
     - annotation: !!omap
@@ -18357,7 +18357,7 @@
   - !!omap
     - id: cpd11527_c
     - name: 7-methyl-trans-oct-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H35N2O8PRS
     - annotation: !!omap
@@ -18365,7 +18365,7 @@
   - !!omap
     - id: cpd11528_c
     - name: 7-methyl-octanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H37N2O8PRS
     - annotation: !!omap
@@ -18373,7 +18373,7 @@
   - !!omap
     - id: cpd11529_c
     - name: 9-methyl-3-oxo-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H39N2O9PRS
     - annotation: !!omap
@@ -18381,7 +18381,7 @@
   - !!omap
     - id: cpd11530_c
     - name: 9-methyl-3-hydroxy-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H41N2O9PRS
     - annotation: !!omap
@@ -18389,7 +18389,7 @@
   - !!omap
     - id: cpd11531_c
     - name: 9-methyl-trans-dec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H39N2O8PRS
     - annotation: !!omap
@@ -18397,7 +18397,7 @@
   - !!omap
     - id: cpd11532_c
     - name: 9-methyl-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C22H41N2O8PRS
     - annotation: !!omap
@@ -18405,7 +18405,7 @@
   - !!omap
     - id: cpd11533_c
     - name: 11-methyl-3-oxo-dodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H43N2O9PRS
     - annotation: !!omap
@@ -18413,7 +18413,7 @@
   - !!omap
     - id: cpd11534_c
     - name: 11-methyl-3-hydroxy-dodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H45N2O9PRS
     - annotation: !!omap
@@ -18421,7 +18421,7 @@
   - !!omap
     - id: cpd11535_c
     - name: 11-methyl-trans-dodec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H43N2O8PRS
     - annotation: !!omap
@@ -18429,7 +18429,7 @@
   - !!omap
     - id: cpd11536_c
     - name: 11-methyl-dodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C24H45N2O8PRS
     - annotation: !!omap
@@ -18437,7 +18437,7 @@
   - !!omap
     - id: cpd11537_c
     - name: 13-methyl-3-oxo-tetra-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H47N2O9PRS
     - annotation: !!omap
@@ -18445,7 +18445,7 @@
   - !!omap
     - id: cpd11538_c
     - name: 13-methyl-3-hydroxy-tetra-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H49N2O9PRS
     - annotation: !!omap
@@ -18453,7 +18453,7 @@
   - !!omap
     - id: cpd11539_c
     - name: 13-methyl-trans-tetra-dec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H47N2O8PRS
     - annotation: !!omap
@@ -18461,7 +18461,7 @@
   - !!omap
     - id: cpd11540_c
     - name: 13-methyl-tetra-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C26H49N2O8PRS
     - annotation: !!omap
@@ -18469,7 +18469,7 @@
   - !!omap
     - id: cpd11541_c
     - name: 15-methyl-3-oxo-hexa-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H51N2O9PRS
     - annotation: !!omap
@@ -18477,7 +18477,7 @@
   - !!omap
     - id: cpd11542_c
     - name: 15-methyl-3-hydroxy-hexa-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H53N2O9PRS
     - annotation: !!omap
@@ -18485,7 +18485,7 @@
   - !!omap
     - id: cpd11543_c
     - name: 15-methyl-trans-hexa-dec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H51N2O8PRS
     - annotation: !!omap
@@ -18493,7 +18493,7 @@
   - !!omap
     - id: cpd11544_c
     - name: 15-methyl-hexa-decanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C28H53N2O8PRS
     - annotation: !!omap
@@ -18501,7 +18501,7 @@
   - !!omap
     - id: cpd11545_c
     - name: isobutyryl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C15H27N2O8PRS
     - annotation: !!omap
@@ -18509,7 +18509,7 @@
   - !!omap
     - id: cpd11546_c
     - name: 4-methyl-3-oxo-pentanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H29N2O9PRS
     - annotation: !!omap
@@ -18517,7 +18517,7 @@
   - !!omap
     - id: cpd11547_c
     - name: 4-methyl-3-hydroxy-pentanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H31N2O9PRS
     - annotation: !!omap
@@ -18525,7 +18525,7 @@
   - !!omap
     - id: cpd11548_c
     - name: 4-methyl-trans-pent-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H29N2O8PRS
     - annotation: !!omap
@@ -18533,7 +18533,7 @@
   - !!omap
     - id: cpd11549_c
     - name: 4-methyl-pentanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H31N2O8PRS
     - annotation: !!omap
@@ -18541,7 +18541,7 @@
   - !!omap
     - id: cpd11550_c
     - name: 6-methyl-3-oxo-heptanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H33N2O9PRS
     - annotation: !!omap
@@ -18549,7 +18549,7 @@
   - !!omap
     - id: cpd11551_c
     - name: 6-methyl-3-hydroxy-heptanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H35N2O9PRS
     - annotation: !!omap
@@ -18557,7 +18557,7 @@
   - !!omap
     - id: cpd11552_c
     - name: 6-methyl-trans-hept-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H33N2O8PRS
     - annotation: !!omap
@@ -18565,7 +18565,7 @@
   - !!omap
     - id: cpd11553_c
     - name: 6-methyl-heptanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H35N2O8PRS
     - annotation: !!omap
@@ -18573,7 +18573,7 @@
   - !!omap
     - id: cpd11554_c
     - name: 8-methyl-3-oxo-nonanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H37N2O9PRS
     - annotation: !!omap
@@ -18581,7 +18581,7 @@
   - !!omap
     - id: cpd11555_c
     - name: 8-methyl-3-hydroxy-nonanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H39N2O9PRS
     - annotation: !!omap
@@ -18589,7 +18589,7 @@
   - !!omap
     - id: cpd11556_c
     - name: 8-methyl-trans-non-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H37N2O8PRS
     - annotation: !!omap
@@ -18597,7 +18597,7 @@
   - !!omap
     - id: cpd11557_c
     - name: 8-methyl-nonanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H39N2O8PRS
     - annotation: !!omap
@@ -18605,7 +18605,7 @@
   - !!omap
     - id: cpd11558_c
     - name: 10-methyl-3-oxo-undecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C23H41N2O9PRS
     - annotation: !!omap
@@ -18613,7 +18613,7 @@
   - !!omap
     - id: cpd11559_c
     - name: 10-methyl-3-hydroxy-undecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C23H43N2O9PRS
     - annotation: !!omap
@@ -18621,7 +18621,7 @@
   - !!omap
     - id: cpd11560_c
     - name: 10-methyl-trans-undec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C23H41N2O8PRS
     - annotation: !!omap
@@ -18629,7 +18629,7 @@
   - !!omap
     - id: cpd11561_c
     - name: 10-methyl-undecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C23H43N2O8PRS
     - annotation: !!omap
@@ -18637,7 +18637,7 @@
   - !!omap
     - id: cpd11562_c
     - name: 12-methyl-3-oxo-tridecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C25H45N2O9PRS
     - annotation: !!omap
@@ -18645,7 +18645,7 @@
   - !!omap
     - id: cpd11563_c
     - name: 12-methyl-3-hydroxy-tridecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C25H47N2O9PRS
     - annotation: !!omap
@@ -18653,7 +18653,7 @@
   - !!omap
     - id: cpd11564_c
     - name: 12-methyl-trans-tridec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C25H45N2O8PRS
     - annotation: !!omap
@@ -18661,7 +18661,7 @@
   - !!omap
     - id: cpd11565_c
     - name: 12-methyl-tridecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C25H47N2O8PRS
     - annotation: !!omap
@@ -18669,7 +18669,7 @@
   - !!omap
     - id: cpd11566_c
     - name: 14-methyl-3-oxo-pentadecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C27H49N2O9PRS
     - annotation: !!omap
@@ -18677,7 +18677,7 @@
   - !!omap
     - id: cpd11567_c
     - name: 14-methyl-3-hydroxy-pentadecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C27H51N2O9PRS
     - annotation: !!omap
@@ -18685,7 +18685,7 @@
   - !!omap
     - id: cpd11568_c
     - name: 14-methyl-trans-pentadec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C27H49N2O8PRS
     - annotation: !!omap
@@ -18693,7 +18693,7 @@
   - !!omap
     - id: cpd11569_c
     - name: 14-methyl-pentadecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C27H51N2O8PRS
     - annotation: !!omap
@@ -18701,7 +18701,7 @@
   - !!omap
     - id: cpd11570_c
     - name: 3-Oxooctodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C29H53N2O9PRS
     - annotation: !!omap
@@ -18709,7 +18709,7 @@
   - !!omap
     - id: cpd11571_c
     - name: 3-Hydroxyoctodecanoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C29H55N2O9PRS
     - annotation: !!omap
@@ -18717,7 +18717,7 @@
   - !!omap
     - id: cpd11572_c
     - name: trans-Octodec-2-enoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C29H53N2O8PRS
     - annotation: !!omap
@@ -19317,7 +19317,7 @@
   - !!omap
     - id: cpd11718_c
     - name: (S)-3-Hydroxyacyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C24H36N7O18P3RS
     - annotation: !!omap
@@ -19708,7 +19708,7 @@
   - !!omap
     - id: cpd12689_c
     - name: 3-Oxotetradecanoyl-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: -3
     - formula: C35H57N7O18P3S
     - annotation: !!omap
@@ -19754,7 +19754,7 @@
   - !!omap
     - id: cpd14938_c
     - name: 3-Oxostearoyl-[acp]
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C18H33O2RS
     - annotation: !!omap
@@ -19803,7 +19803,7 @@
   - !!omap
     - id: cpd15239_c
     - name: Hexadecenoyl-ACP
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C27H49N2O8PRS
     - annotation: !!omap
@@ -19877,7 +19877,7 @@
   - !!omap
     - id: cpd15306_c
     - name: 1,2-Diacyl-sn-glycerol - didodecanoyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C27H52O5
     - annotation: !!omap
@@ -19885,7 +19885,7 @@
   - !!omap
     - id: cpd15307_c
     - name: 1,2-Diacyl-sn-glycerol - ditetradecanoyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C31H60O5
     - annotation: !!omap
@@ -19893,7 +19893,7 @@
   - !!omap
     - id: cpd15308_c
     - name: 1,2-Diacyl-sn-glycerol - ditetradec-7-enoyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C31H56O5
     - annotation: !!omap
@@ -19901,7 +19901,7 @@
   - !!omap
     - id: cpd15309_c
     - name: 1,2-Diacyl-sn-glycerol - dihexadecanoyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C35H68O5
     - annotation: !!omap
@@ -19909,7 +19909,7 @@
   - !!omap
     - id: cpd15310_c
     - name: 1,2-Diacyl-sn-glycerol - dihexadec-9-enoyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C35H64O5
     - annotation: !!omap
@@ -19917,7 +19917,7 @@
   - !!omap
     - id: cpd15311_c
     - name: 1,2-Diacyl-sn-glycerol - dioctadecanoyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C39H76O5
     - annotation: !!omap
@@ -19925,7 +19925,7 @@
   - !!omap
     - id: cpd15312_c
     - name: 1,2-Diacyl-sn-glycerol - dioctadec-11-enoyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C39H72O5
     - annotation: !!omap
@@ -19933,7 +19933,7 @@
   - !!omap
     - id: cpd15325_c
     - name: 1-dodecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C15H30O7P
     - annotation: !!omap
@@ -19941,7 +19941,7 @@
   - !!omap
     - id: cpd15326_c
     - name: 1-hexadec-9-enoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H36O7P
     - annotation: !!omap
@@ -19949,7 +19949,7 @@
   - !!omap
     - id: cpd15327_c
     - name: 1-hexadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H38O7P
     - annotation: !!omap
@@ -19957,7 +19957,7 @@
   - !!omap
     - id: cpd15328_c
     - name: 1-octadec-11-enoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H40O7P
     - annotation: !!omap
@@ -19965,7 +19965,7 @@
   - !!omap
     - id: cpd15329_c
     - name: 1-octadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C21H42O7P
     - annotation: !!omap
@@ -19973,7 +19973,7 @@
   - !!omap
     - id: cpd15330_c
     - name: 1-tetradec-7-enoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H32O7P
     - annotation: !!omap
@@ -19981,7 +19981,7 @@
   - !!omap
     - id: cpd15331_c
     - name: 1-tetradecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H34O7P
     - annotation: !!omap
@@ -19989,7 +19989,7 @@
   - !!omap
     - id: cpd15359_c
     - name: 2-Octaprenyl-6-methoxy-1,4-benzoquinol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C47H72O3
     - annotation: !!omap
@@ -19997,7 +19997,7 @@
   - !!omap
     - id: cpd15360_c
     - name: 2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C48H74O4
     - annotation: !!omap
@@ -20005,7 +20005,7 @@
   - !!omap
     - id: cpd15361_c
     - name: 2-Octaprenyl3-methyl-6-methoxy- 1,4-benzoquinol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C48H74O3
     - annotation: !!omap
@@ -20013,7 +20013,7 @@
   - !!omap
     - id: cpd15370_c
     - name: (R)-3-hydroxy-cis-vacc-11-enoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C29H53N2O9PRS
     - annotation: !!omap
@@ -20021,7 +20021,7 @@
   - !!omap
     - id: cpd15376_c
     - name: 3-oxo-cis-vacc-11-enoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C29H51N2O9PRS
     - annotation: !!omap
@@ -20814,7 +20814,7 @@
   - !!omap
     - id: cpd15663_c
     - name: Prenol-45n teichoic acid-alanine substituted
-    - compartment: c
+    - compartment: cytosol
     - charge: -47
     - formula: C341H611N47O287P47
     - annotation: !!omap
@@ -20822,7 +20822,7 @@
   - !!omap
     - id: cpd15665_c
     - name: Peptidoglycan polymer (n subunits)
-    - compartment: c
+    - compartment: cytosol
     - charge: -4
     - formula: C80H125N16O42R
     - annotation: !!omap
@@ -20862,7 +20862,7 @@
   - !!omap
     - id: cpd15671_c
     - name: 1-isoheptadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H40O7P
     - annotation: !!omap
@@ -20870,7 +20870,7 @@
   - !!omap
     - id: cpd15672_c
     - name: 1-anteisoheptadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C20H40O7P
     - annotation: !!omap
@@ -20878,7 +20878,7 @@
   - !!omap
     - id: cpd15673_c
     - name: 1-isotetradecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C17H34O7P
     - annotation: !!omap
@@ -20886,7 +20886,7 @@
   - !!omap
     - id: cpd15674_c
     - name: 1-isopentadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H36O7P
     - annotation: !!omap
@@ -20894,7 +20894,7 @@
   - !!omap
     - id: cpd15675_c
     - name: 1-anteisopentadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C18H36O7P
     - annotation: !!omap
@@ -20902,7 +20902,7 @@
   - !!omap
     - id: cpd15676_c
     - name: 1-isohexadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C19H38O7P
     - annotation: !!omap
@@ -20910,7 +20910,7 @@
   - !!omap
     - id: cpd15677_c
     - name: 1,2-diisoheptadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C37H72O8P
     - annotation: !!omap
@@ -20918,7 +20918,7 @@
   - !!omap
     - id: cpd15678_c
     - name: 1,2-dianteisoheptadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C37H72O8P
     - annotation: !!omap
@@ -20926,7 +20926,7 @@
   - !!omap
     - id: cpd15679_c
     - name: 1,2-diisotetradecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C31H60O8P
     - annotation: !!omap
@@ -20934,7 +20934,7 @@
   - !!omap
     - id: cpd15680_c
     - name: 1,2-diisopentadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C33H64O8P
     - annotation: !!omap
@@ -20942,7 +20942,7 @@
   - !!omap
     - id: cpd15681_c
     - name: 1,2-dianteisopentadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C33H64O8P
     - annotation: !!omap
@@ -20950,7 +20950,7 @@
   - !!omap
     - id: cpd15682_c
     - name: 1,2-diisohexadecanoyl-sn-glycerol - 3-phosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C35H68O8P
     - annotation: !!omap
@@ -20958,7 +20958,7 @@
   - !!omap
     - id: cpd15683_c
     - name: CDP-1,2-diisoheptadecanoylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C46H83N3O15P2
     - annotation: !!omap
@@ -20966,7 +20966,7 @@
   - !!omap
     - id: cpd15684_c
     - name: CDP-1,2-dianteisoheptadecanoylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C46H83N3O15P2
     - annotation: !!omap
@@ -20974,7 +20974,7 @@
   - !!omap
     - id: cpd15685_c
     - name: CDP-1,2-diisotetradecanoylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C40H71N3O15P2
     - annotation: !!omap
@@ -20982,7 +20982,7 @@
   - !!omap
     - id: cpd15686_c
     - name: CDP-1,2-diisopentadecanoylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C42H75N3O15P2
     - annotation: !!omap
@@ -20990,7 +20990,7 @@
   - !!omap
     - id: cpd15687_c
     - name: CDP-1,2-dianteisopentadecanoylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C42H75N3O15P2
     - annotation: !!omap
@@ -20998,7 +20998,7 @@
   - !!omap
     - id: cpd15688_c
     - name: CDP-1,2-diisohexadecanoylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C44H79N3O15P2
     - annotation: !!omap
@@ -21006,7 +21006,7 @@
   - !!omap
     - id: cpd15689_c
     - name: Diisoheptadecanoylphosphatidylserine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C40H76NO10P
     - annotation: !!omap
@@ -21014,7 +21014,7 @@
   - !!omap
     - id: cpd15690_c
     - name: Dianteisoheptadecanoylphosphatidylserine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C40H76NO10P
     - annotation: !!omap
@@ -21022,7 +21022,7 @@
   - !!omap
     - id: cpd15691_c
     - name: Diisotetradecanoylphosphatidylserine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C34H64NO10P
     - annotation: !!omap
@@ -21030,7 +21030,7 @@
   - !!omap
     - id: cpd15692_c
     - name: Diisopentadecanoylphosphatidylserine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C36H68NO10P
     - annotation: !!omap
@@ -21038,7 +21038,7 @@
   - !!omap
     - id: cpd15693_c
     - name: Dianteisopentadecanoylphosphatidylserine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C36H68NO10P
     - annotation: !!omap
@@ -21046,7 +21046,7 @@
   - !!omap
     - id: cpd15694_c
     - name: Diisohexadecanoylphosphatidylserine
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C38H72NO10P
     - annotation: !!omap
@@ -21054,7 +21054,7 @@
   - !!omap
     - id: cpd15695_c
     - name: Diisoheptadecanoylphosphatidylethanolamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C39H78NO8P
     - annotation: !!omap
@@ -21062,7 +21062,7 @@
   - !!omap
     - id: cpd15696_c
     - name: Dianteisoheptadecanoylphosphatidylethanolamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C39H78NO8P
     - annotation: !!omap
@@ -21070,7 +21070,7 @@
   - !!omap
     - id: cpd15697_c
     - name: Diisotetradecanoylphosphatidylethanolamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C33H66NO8P
     - annotation: !!omap
@@ -21078,7 +21078,7 @@
   - !!omap
     - id: cpd15698_c
     - name: Diisopentadecanoylphosphatidylethanolamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C35H70NO8P
     - annotation: !!omap
@@ -21086,7 +21086,7 @@
   - !!omap
     - id: cpd15699_c
     - name: Dianteisopentadecanoylphosphatidylethanolamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C35H70NO8P
     - annotation: !!omap
@@ -21094,7 +21094,7 @@
   - !!omap
     - id: cpd15700_c
     - name: Diisohexadecanoylphosphatidylethanolamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C37H74NO8P
     - annotation: !!omap
@@ -21102,7 +21102,7 @@
   - !!omap
     - id: cpd15701_c
     - name: 1,2-Diisoheptadecanoyl-sn-glycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C37H72O5
     - annotation: !!omap
@@ -21110,7 +21110,7 @@
   - !!omap
     - id: cpd15702_c
     - name: 1,2-Dianteisoheptadecanoyl-sn-glycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C37H72O5
     - annotation: !!omap
@@ -21118,7 +21118,7 @@
   - !!omap
     - id: cpd15703_c
     - name: 1,2-Diisotetradecanoyl-sn-glycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C31H60O5
     - annotation: !!omap
@@ -21126,7 +21126,7 @@
   - !!omap
     - id: cpd15704_c
     - name: 1,2-Diisopentadecanoyl-sn-glycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C33H64O5
     - annotation: !!omap
@@ -21134,7 +21134,7 @@
   - !!omap
     - id: cpd15705_c
     - name: 1,2-Dianteisopentadecanoyl-sn-glycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C33H64O5
     - annotation: !!omap
@@ -21142,7 +21142,7 @@
   - !!omap
     - id: cpd15706_c
     - name: 1,2-Diisohexadecanoyl-sn-glycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C35H68O5
     - annotation: !!omap
@@ -21150,7 +21150,7 @@
   - !!omap
     - id: cpd15716_c
     - name: Diisoheptadecanoylphosphatidylglycerophosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C40H78O13P2
     - annotation: !!omap
@@ -21158,7 +21158,7 @@
   - !!omap
     - id: cpd15717_c
     - name: Dianteisoheptadecanoylphosphatidylglycerophosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C40H78O13P2
     - annotation: !!omap
@@ -21166,7 +21166,7 @@
   - !!omap
     - id: cpd15718_c
     - name: Diisotetradecanoylphosphatidylglycerophosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C34H66O13P2
     - annotation: !!omap
@@ -21174,7 +21174,7 @@
   - !!omap
     - id: cpd15719_c
     - name: Diisopentadecanoylphosphatidylglycerophosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C36H70O13P2
     - annotation: !!omap
@@ -21182,7 +21182,7 @@
   - !!omap
     - id: cpd15720_c
     - name: Dianteisopentadecanoylphosphatidylglycerophosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C36H70O13P2
     - annotation: !!omap
@@ -21190,7 +21190,7 @@
   - !!omap
     - id: cpd15721_c
     - name: Diisohexadecanoylphosphatidylglycerophosphate
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C38H74O13P2
     - annotation: !!omap
@@ -21198,7 +21198,7 @@
   - !!omap
     - id: cpd15722_c
     - name: Diisoheptadecanoylphosphatidylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C40H78O10P
     - annotation: !!omap
@@ -21206,7 +21206,7 @@
   - !!omap
     - id: cpd15723_c
     - name: Dianteisoheptadecanoylphosphatidylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C40H78O10P
     - annotation: !!omap
@@ -21214,7 +21214,7 @@
   - !!omap
     - id: cpd15724_c
     - name: Diisotetradecanoylphosphatidylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C34H66O10P
     - annotation: !!omap
@@ -21222,7 +21222,7 @@
   - !!omap
     - id: cpd15725_c
     - name: Diisopentadecanoylphosphatidylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C36H70O10P
     - annotation: !!omap
@@ -21230,7 +21230,7 @@
   - !!omap
     - id: cpd15726_c
     - name: Dianteisopentadecanoylphosphatidylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C36H70O10P
     - annotation: !!omap
@@ -21238,7 +21238,7 @@
   - !!omap
     - id: cpd15727_c
     - name: Diisohexadecanoylphosphatidylglycerol
-    - compartment: c
+    - compartment: cytosol
     - charge: -1
     - formula: C38H74O10P
     - annotation: !!omap
@@ -21246,7 +21246,7 @@
   - !!omap
     - id: cpd15791_c
     - name: Palmitoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C73H140O17P2
     - annotation: !!omap
@@ -21254,7 +21254,7 @@
   - !!omap
     - id: cpd15792_c
     - name: Myristoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C65H124O17P2
     - annotation: !!omap
@@ -21262,7 +21262,7 @@
   - !!omap
     - id: cpd15793_c
     - name: Stearoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C81H156O17P2
     - annotation: !!omap
@@ -21270,7 +21270,7 @@
   - !!omap
     - id: cpd15794_c
     - name: Isoheptadecanoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C77H148O17P2
     - annotation: !!omap
@@ -21278,7 +21278,7 @@
   - !!omap
     - id: cpd15795_c
     - name: Anteisoheptadecanoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C77H148O17P2
     - annotation: !!omap
@@ -21286,7 +21286,7 @@
   - !!omap
     - id: cpd15796_c
     - name: Isotetradecanoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C65H124O17P2
     - annotation: !!omap
@@ -21294,7 +21294,7 @@
   - !!omap
     - id: cpd15797_c
     - name: Isopentadecanoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C69H132O17P2
     - annotation: !!omap
@@ -21302,7 +21302,7 @@
   - !!omap
     - id: cpd15798_c
     - name: Anteisopentadecanoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C69H132O17P2
     - annotation: !!omap
@@ -21310,7 +21310,7 @@
   - !!omap
     - id: cpd15799_c
     - name: Isohexadecanoylcardiolipin - (B. subtilis)
-    - compartment: c
+    - compartment: cytosol
     - charge: -2
     - formula: C73H140O17P2
     - annotation: !!omap
@@ -21340,7 +21340,7 @@
   - !!omap
     - id: cpd16660_c
     - name: homoserine lactone
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C4H7NO2
     - annotation: !!omap
@@ -21356,7 +21356,7 @@
   - !!omap
     - id: cpd16765_c
     - name: 2-nonaprenyl-6-hydroxyphenol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C51H78O2
     - annotation: !!omap
@@ -21364,7 +21364,7 @@
   - !!omap
     - id: cpd16766_c
     - name: 2-nonaprenyl-6-methoxy-1,4-benzoquinol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C52H80O3
     - annotation: !!omap
@@ -21372,7 +21372,7 @@
   - !!omap
     - id: cpd16767_c
     - name: 2-nonaprenyl-6-methoxyphenol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C52H80O2
     - annotation: !!omap
@@ -21380,7 +21380,7 @@
   - !!omap
     - id: cpd16768_c
     - name: 2-nonaprenylphenol
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C51H78O
     - annotation: !!omap
@@ -21408,7 +21408,7 @@
   - !!omap
     - id: cpd17044_c
     - name: 1-hydroxyphenazine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C12H8ON2
     - annotation: !!omap
@@ -21416,7 +21416,7 @@
   - !!omap
     - id: cpd17045_c
     - name: beta-hydroxydecanoyl-beta-hydroxydecanoyl-S-CoA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C41H68O20N7P3S
     - annotation: !!omap
@@ -21424,7 +21424,7 @@
   - !!omap
     - id: cpd17046_c
     - name: 2-hydroxydodecanoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C12H23O2X
     - annotation: !!omap
@@ -21432,7 +21432,7 @@
   - !!omap
     - id: cpd17047_c
     - name: S-2-hydroxymyristoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C14H27O2X
     - annotation: !!omap
@@ -21440,7 +21440,7 @@
   - !!omap
     - id: cpd17048_c
     - name: 2-oxo-3-p-tolylpropanate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C9H7O3
     - annotation: !!omap
@@ -21448,7 +21448,7 @@
   - !!omap
     - id: cpd17049_c
     - name: 3-aminopropanaldehyde
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C3H7ON
     - annotation: !!omap
@@ -21456,7 +21456,7 @@
   - !!omap
     - id: cpd17050_c
     - name: 3-hydroxydecanoyl-3-hydroxydecanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C20H38O5
     - annotation: !!omap
@@ -21464,7 +21464,7 @@
   - !!omap
     - id: cpd17051_c
     - name: (3R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein]
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C18H35O2X
     - annotation: !!omap
@@ -21472,7 +21472,7 @@
   - !!omap
     - id: cpd17052_c
     - name: 4-carbamoyl-2-oxobutanate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C5H6O4N
     - annotation: !!omap
@@ -21480,7 +21480,7 @@
   - !!omap
     - id: cpd17053_c
     - name: 5-methylphenazine-1-carboxylic acid betaine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C14H11N2O2
     - annotation: !!omap
@@ -21488,7 +21488,7 @@
   - !!omap
     - id: cpd17054_c
     - name: Pseudomonas aeruginosa KDO2-lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C96H168N2O39P2
     - annotation: !!omap
@@ -21496,7 +21496,7 @@
   - !!omap
     - id: cpd17055_c
     - name: Pseudomonas aeruginosa KDO-lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C88H157N2O32P2
     - annotation: !!omap
@@ -21504,7 +21504,7 @@
   - !!omap
     - id: cpd17056_c
     - name: Pseudomonas aeruginosa A-band lipopolysaccharide
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C189H341P9O127N8
     - annotation: !!omap
@@ -21512,7 +21512,7 @@
   - !!omap
     - id: cpd17057_c
     - name: Pseudomonas aeruginosa B-band lipopolysaccharide
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C182H322O116N9P7
     - annotation: !!omap
@@ -21520,7 +21520,7 @@
   - !!omap
     - id: cpd17058_c
     - name: PA core1 - lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C103H181N2O45P2
     - annotation: !!omap
@@ -21528,7 +21528,7 @@
   - !!omap
     - id: cpd17059_c
     - name: PA core2 - lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C110H194N2O51P2
     - annotation: !!omap
@@ -21536,7 +21536,7 @@
   - !!omap
     - id: cpd17060_c
     - name: PA core3 - lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C116H205N2O56P2
     - annotation: !!omap
@@ -21544,7 +21544,7 @@
   - !!omap
     - id: cpd17061_c
     - name: PA core4 - lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C134H238N2O71P2
     - annotation: !!omap
@@ -21552,7 +21552,7 @@
   - !!omap
     - id: cpd17062_c
     - name: PA core5 - lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C146H260N2O79P2
     - annotation: !!omap
@@ -21560,7 +21560,7 @@
   - !!omap
     - id: cpd17063_c
     - name: PA core6 - lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C152H271N2O84P2
     - annotation: !!omap
@@ -21568,7 +21568,7 @@
   - !!omap
     - id: cpd17064_c
     - name: PA core7 - lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C152H268N2O93P5
     - annotation: !!omap
@@ -21576,7 +21576,7 @@
   - !!omap
     - id: cpd17065_c
     - name: Pseudomonas aeruginosa LPS core + KDO2-lipidA
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C156H274N4O95P5
     - annotation: !!omap
@@ -21584,7 +21584,7 @@
   - !!omap
     - id: cpd17066_c
     - name: Pseudomonas aeruginosa Lipid A
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C80H146N2O25P2
     - annotation: !!omap
@@ -21592,7 +21592,7 @@
   - !!omap
     - id: cpd17067_c
     - name: Pseudomonas Lipid A Disaccharide
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C56H103N2O20P
     - annotation: !!omap
@@ -21600,7 +21600,7 @@
   - !!omap
     - id: cpd17068_c
     - name: Pseudomonas aeruginosa Lipid A precursor
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C56H102N2O23P2
     - annotation: !!omap
@@ -21608,7 +21608,7 @@
   - !!omap
     - id: cpd17069_c
     - name: Pseudomonas aeruginosa Lipid X
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C28H52NO12P
     - annotation: !!omap
@@ -21616,7 +21616,7 @@
   - !!omap
     - id: cpd17070_c
     - name: UDP-2-NH-(3OH-C12:0),3-O-(3OH-C10:0)glucosamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C37H63N3O20P2
     - annotation: !!omap
@@ -21624,7 +21624,7 @@
   - !!omap
     - id: cpd17071_c
     - name: UDP-3-O-(3OH-C10:0)-N-acetylglucosamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C27H43N3O19P2
     - annotation: !!omap
@@ -21632,7 +21632,7 @@
   - !!omap
     - id: cpd17072_c
     - name: UDP-3-O-(3OH-C10:0)-D-glucosamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C25H42N3O18P2
     - annotation: !!omap
@@ -21640,7 +21640,7 @@
   - !!omap
     - id: cpd17073_c
     - name: 2-amino-2-deoxyisochorismic acid
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C10H10O5N
     - annotation: !!omap
@@ -21648,7 +21648,7 @@
   - !!omap
     - id: cpd17074_c
     - name: Acetylated Alginate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C14H18O13
     - annotation: !!omap
@@ -21656,7 +21656,7 @@
   - !!omap
     - id: cpd17074_e
     - name: Acetylated Alginate
-    - compartment: e
+    - compartment: extracellular
     - charge: 0
     - formula: C14H18O13
     - annotation: !!omap
@@ -21664,7 +21664,7 @@
   - !!omap
     - id: cpd17075_c
     - name: Epimerized Alginate Dimer
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C12H16O12
     - annotation: !!omap
@@ -21672,7 +21672,7 @@
   - !!omap
     - id: cpd17076_c
     - name: delta-aminovalerate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C5H13NO2
     - annotation: !!omap
@@ -21680,7 +21680,7 @@
   - !!omap
     - id: cpd17077_c
     - name: trans-2,3-dihydro-3-hydroxyanthranilic acid
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C7H8O3N
     - annotation: !!omap
@@ -21688,7 +21688,7 @@
   - !!omap
     - id: cpd17078_c
     - name: 2-heptyl-4-quinolone
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C16H21ON
     - annotation: !!omap
@@ -21696,7 +21696,7 @@
   - !!omap
     - id: cpd17079_c
     - name: 3-(4-hydroxyphenyl)-2-oxopropanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C9H7O4
     - annotation: !!omap
@@ -21704,7 +21704,7 @@
   - !!omap
     - id: cpd17080_c
     - name: L-rhamnosyl-Lrhamnosyl-3-hydroxydecanoyl-3-hydroxydecanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C32H58O13
     - annotation: !!omap
@@ -21712,7 +21712,7 @@
   - !!omap
     - id: cpd17081_c
     - name: L-rhamnosyl-3-hydroxydecanoyl-3-hydroxydecanoate
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C26H48O9
     - annotation: !!omap
@@ -21720,7 +21720,7 @@
   - !!omap
     - id: cpd17082_c
     - name: N-(3-oxo-dodecanoyl)-L-homoserine lactone
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C16H27NO4
     - annotation: !!omap
@@ -21728,7 +21728,7 @@
   - !!omap
     - id: cpd17083_c
     - name: phenazine-1-carboxylic acid
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C13H8N2O2
     - annotation: !!omap
@@ -21736,7 +21736,7 @@
   - !!omap
     - id: cpd17084_c
     - name: phenazine-1-carboxamide
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C13H9ON3
     - annotation: !!omap
@@ -21744,7 +21744,7 @@
   - !!omap
     - id: cpd17085_c
     - name: 2-heptyl-3-hydroxy-4-quinolone
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C16H21O2N
     - annotation: !!omap
@@ -21752,7 +21752,7 @@
   - !!omap
     - id: cpd17085_e
     - name: 2-heptyl-3-hydroxy-4-quinolone
-    - compartment: e
+    - compartment: extracellular
     - charge: 0
     - formula: C16H21O2N
     - annotation: !!omap
@@ -21760,7 +21760,7 @@
   - !!omap
     - id: cpd17086_c
     - name: rha1glcnacppund
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C70H117P3O18N4
     - annotation: !!omap
@@ -21768,7 +21768,7 @@
   - !!omap
     - id: cpd17087_c
     - name: rha3glcnacppund
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C82H143P5O32N4
     - annotation: !!omap
@@ -21776,7 +21776,7 @@
   - !!omap
     - id: cpd17088_c
     - name: rha4glcnacppund
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C88H156P6O39N4
     - annotation: !!omap
@@ -21784,7 +21784,7 @@
   - !!omap
     - id: cpd17090_c
     - name: Trans-2,3-didehydroacyl-CoA (C8)
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C29H44N7O17P3S
     - annotation: !!omap
@@ -21792,7 +21792,7 @@
   - !!omap
     - id: cpd17091_c
     - name: trans,trans-2,3,4,5-tetradehydroacyl-CoA (C8)
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C29H42N7O17P3S
     - annotation: !!omap
@@ -21800,7 +21800,7 @@
   - !!omap
     - id: cpd17092_c
     - name: UDP-N-acetyl fucosamine
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C17H25N3O16P2
     - annotation: !!omap
@@ -21808,7 +21808,7 @@
   - !!omap
     - id: cpd17093_c
     - name: UDP-N-acetyl-D-mannosamine (2NAc(CH3C=NH)) acid
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C17H27O17N4P2
     - annotation: !!omap
@@ -21816,7 +21816,7 @@
   - !!omap
     - id: cpd17094_c
     - name: UDP-N-acetyl-D-mannosamine (2NAc3N) acid
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C17H27O17N4P2
     - annotation: !!omap
@@ -21824,7 +21824,7 @@
   - !!omap
     - id: cpd17095_c
     - name: UDP-N-acetyl-D-manosamine (2NAc3NAc) acid
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C19H29O18N4P2
     - annotation: !!omap
@@ -21832,7 +21832,7 @@
   - !!omap
     - id: cpd17096_c
     - name: UDP-N-acetyl-D-mannosamine-3-N
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C17H28O17N4P2
     - annotation: !!omap
@@ -21840,7 +21840,7 @@
   - !!omap
     - id: cpd17097_c
     - name: semiquinone-8
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C49H75O4
     - annotation: !!omap
@@ -21848,7 +21848,7 @@
   - !!omap
     - id: cpd17098_c
     - name: Fuc2NAc-PP-Undecaprenyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C63H103O11N1P2
     - annotation: !!omap
@@ -21856,7 +21856,7 @@
   - !!omap
     - id: cpd17099_c
     - name: Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C71H119O19N3P3
     - annotation: !!omap
@@ -21864,7 +21864,7 @@
   - !!omap
     - id: cpd17100_c
     - name: Man(2NAc3N)(3,-CH3C=NH)A-(beta1,4)-Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl
-    - compartment: c
+    - compartment: cytosol
     - charge: 0
     - formula: C81H137O28N5P4
     - annotation: !!omap
@@ -21931,7 +21931,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00001_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -21941,7 +21941,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00007_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -20.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -21951,7 +21951,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00009_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -21961,7 +21961,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00011_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22001,7 +22001,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00021_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22011,7 +22011,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00023_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22031,7 +22031,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00027_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22061,7 +22061,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00033_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22071,7 +22071,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00034_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22081,7 +22081,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00035_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22101,7 +22101,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00039_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22111,7 +22111,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00041_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22121,7 +22121,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00048_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22131,7 +22131,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00051_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22151,7 +22151,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00054_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22161,7 +22161,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00058_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22171,7 +22171,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00060_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22201,7 +22201,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00065_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22211,7 +22211,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00066_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22221,7 +22221,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00067_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22231,7 +22231,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00069_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22301,7 +22301,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00084_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22321,7 +22321,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00092_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22381,7 +22381,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00107_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22421,7 +22421,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00119_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22451,7 +22451,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00129_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22551,7 +22551,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00156_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22571,7 +22571,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00161_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22641,7 +22641,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00205_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22741,7 +22741,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00254_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22801,7 +22801,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00305_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22821,7 +22821,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00307_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -22861,7 +22861,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00322_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -23111,7 +23111,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd00971_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -23121,7 +23121,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd01012_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -23231,7 +23231,7 @@
     - name: ''
     - metabolites: !!omap
       - cpd03091_e: -1.0
-    - lower_bound: 0.0
+    - lower_bound: -10.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
@@ -53023,8 +53023,6 @@
     - name: unassigned
 - id: iPAU
 - compartments: !!omap
-  - c: cytosol
   - cytosol: default
-  - e: extracellular space
   - extracellular: default
 - version: '1.2'
